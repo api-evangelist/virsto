@@ -1,4 +1,16 @@
 aid: virsto
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/virsto.png
 name: Virsto
 description: Virsto is a company surfaced as a portfolio company of canaan-partners and added to the API
   Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 apis: []
@@ -20,3 +32,11 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'Defunct company (Virsto Software, storage virtualization, acquired by VMware
+    2013); virsto.com resolves to a parked IP (208.91.0.132) and times out over HTTPS;
+    no docs host, no npm/PyPI package, no GitHub org. No API surface to enrich.'
